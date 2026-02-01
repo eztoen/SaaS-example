@@ -10,7 +10,7 @@
 
 ### Backend
 
-- [ ] Project structure (domain / services / api)
+- [🟢] Project structure (domain / services / api)
 - [ ] Pydantic schemas separation
 - [ ] Global exception handling
 - [ ] Logging
