@@ -21,11 +21,6 @@ async def lifespan(app: FastAPI):
     
 app = FastAPI(lifespan=lifespan)
 
-#testing db connection
-@app.get('/')
-async def test():
-    return {'success': True}
-
 # app.include_router()
 
 if __name__ == '__main__':
