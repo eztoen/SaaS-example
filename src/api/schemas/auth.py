@@ -7,7 +7,7 @@ from pydantic import (
     field_validator
 )
 
-class Register(BaseModel):
+class RegisterSchema(BaseModel):
     username: str = Field(..., min_length=5, max_length=30, pattern=r'^[a-zA-Z0-9_]+$')
     email: EmailStr = Field(..., max_length=255)
     password: str = Field(..., min_length=8, max_length=128)
@@ -26,6 +26,6 @@ class Register(BaseModel):
             raise ValueError("Password cannot contain spaces.")
         return value
     
-class Login(BaseModel):
+class LoginSchema(BaseModel):
     email: EmailStr = Field(..., max_length=255)
     password: str = Field(..., min_length=8, max_length=128)
