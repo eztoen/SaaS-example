@@ -14,8 +14,8 @@
 - [ ] Pydantic schemas separation
 - [ ] Global exception handling
 - [ ] Logging
-- [ ] Environment variables (.env)
-- [ ] DB connection via lifespan
+- [🟢] Environment variables (.env)
+- [🟢] DB connection via lifespan
 
 ### Security
 
