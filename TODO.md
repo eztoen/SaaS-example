@@ -2,7 +2,7 @@
 
 ### Core (MVP)
 
-- [ ] User registration (email + password)
+- [🟢] User registration (email + password)
 - [ ] User authentication (JWT)
 - [ ] User model + migrations
 - [ ] Basic CRUD for main entity
@@ -19,7 +19,7 @@
 
 ### Security
 
-- [ ] Password hashing (bcrypt)
+- [🟢] Password hashing (bcrypt)
 - [ ] Access token expiration
 - [ ] Refresh tokens (optional)
 - [ ] Rate limiting
